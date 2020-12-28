@@ -69,7 +69,7 @@ def verb_phrase_transitive(verb, noun_phrase):
     "(TransitiveVerb, NounPhrase) -> VerbPhrase"
     assert isinstance(verb, TransitiveVerb)
     assert isinstance(noun_phrase, NounPhrase)
-    return VerbPhrase(verb + ' ' + determined_noun_phrase)
+    return VerbPhrase(verb + ' ' + noun_phrase)
 
 def verb_phrase(adverb, verb_phrase):
     "(Adverb, VerbPhrase) -> VerbPhrase"

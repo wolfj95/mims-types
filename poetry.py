@@ -45,26 +45,3 @@ def limerick(name, subjective_pronoun, possessive_pronoun):
     poem.append("and then " + subjective_pronoun + " " + vp1 + ",")
     poem.append("until it turned into " + np1 + ".")
     return poem
-
-if __name__ == '__main__':
-    TRIALS = 3
-    print("-" * 80)
-    print("LOVE POEMS")
-    print("")
-    for i in range(TRIALS):
-        print(love_poem())
-        print("")
-    
-    print("-" * 80)
-    print("COUPLETS")
-    print("")
-    for i in range(TRIALS):
-        print(couplet())
-        print("")
-    
-    print("-" * 80)
-    print("LIMERICKS")
-    print("")
-    for name, sp, pp in [("Pete", "he", "his"), ("Sam", "he", "his"), ("Jill", "she", "her")]:
-        print(limerick(name, sp, pp))
-        print("")

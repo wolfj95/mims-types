@@ -15,7 +15,7 @@ from grammatical_types import (
     Sentence
 )
 
-# NEEDED FOR LOVE POEM
+# 3A: LOVE POEM
 
 def pluralize(noun):
     "Noun -> PluralNoun"
@@ -25,39 +25,55 @@ def pluralize(noun):
     else:
         return PluralNoun(noun + 's')
 
-# NEEDED FOR COUPLET
+# 3B: COUPLET
 
 def noun_phrase(adjective, noun):
     "(Adjective, Noun) -> NounPhrase"
+    #YOUR CODE GOES HERE
+
     raise NotImplemented("This function isn't done!")
 
 def determine_noun_phrase(determiner, noun_phrase):
     "(Determiner, NounPhrase) -> Determined NounPhrase"
+    #YOUR CODE GOES HERE
+
     raise NotImplemented("This function isn't done!")
 
 def make_definite(noun_phrase):
     "NounPhrase -> DeterminedNounPhrase"
+    #YOUR CODE GOES HERE
+
     raise NotImplemented("This function isn't done!")
 
 def make_indefinite(noun_phrase):
     "NounPhrase -> DeterminedNounPhrase"
+    #YOUR CODE GOES HERE
+
     raise NotImplemented("This function isn't done!")
 
-# NEEDED FOR LIMERICK
+# 3C: LIMERICK
 
 def verb_phrase(adverb, verb_phrase):
     "(Adverb, VerbPhrase) -> VerbPhrase"
+    #YOUR CODE GOES HERE
+
     raise NotImplemented("This function isn't done!")
 
 def past_tense_transitive(verb):
     "TransitiveVerb -> PastTenseTransitiveVerb"
+    #YOUR CODE GOES HERE
+
     raise NotImplemented("This function isn't done!")
 
 def past_tense_intransitive(verb):
     "TransitiveVerb -> PastTenseTransitiveVerb"
+    #YOUR CODE GOES HERE
+
     raise NotImplemented("This function isn't done!")
 
 def verb_phrase_transitive(verb, noun_phrase):
     "(TransitiveVerb, NounPhrase) -> VerbPhrase"
+    #YOUR CODE GOES HERE
+
     raise NotImplemented("This function isn't done!")
 

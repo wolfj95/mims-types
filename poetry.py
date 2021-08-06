@@ -23,8 +23,8 @@ def couplet():
     poem.append("Until I swapped it for " + second_np + ".")
     return poem
     
-def limerick(name, subjective_pronoun, possessive_pronoun):
-    "str, str, str -> Poem"
+def limerick(name, subjective_pronoun):
+    "str, str -> Poem"
     noun0, noun1 = random_word(Noun, count=2, rhymes_with=name)
     adjective = random_word(Adjective, meter=Meter("100"))
     adverb = random_word(Adverb, meter=Meter("10"))

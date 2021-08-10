@@ -27,8 +27,7 @@ def pluralize(noun):
 # COUPLETS
 
 def noun_phrase(adjective, noun_phrase):
-    "(Adjective, NounPhrase) -> NounPhrase"
-    #YOUR CODE GOES HERE
+    """(Adjective, NounPhrase) -> NounPhrase"""
     
     raise NotImplemented("This function isn't done!") # Get rid of this after writing the function
 
@@ -41,7 +40,7 @@ def determine_noun_phrase(determiner, noun_phrase):
 def make_definite(noun_phrase):
     "NounPhrase -> DeterminedNounPhrase"
     #YOUR CODE GOES HERE
-    
+   
     raise NotImplemented("This function isn't done!")
 
 def make_indefinite(noun_phrase):
@@ -65,7 +64,7 @@ def past_tense_transitive(verb):
     raise NotImplemented("This function isn't done!")
 
 def past_tense_intransitive(verb):
-    "TransitiveVerb -> PastTenseTransitiveVerb"
+    "IntransitiveVerb -> PastTenseIntransitiveVerb"
     #YOUR CODE GOES HERE
 
     raise NotImplemented("This function isn't done!")
